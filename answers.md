@@ -24,4 +24,23 @@ To prove this, assume there is a better solution for $N$ that does not include t
 $N-D_i$ plus the coin $D_i$.
 
 
-2c). 
+2c). Buttom-up:
+
+Let minCoins[0..N] be a new array
+    Initialize minCoins[0] to 0 
+    
+
+    For i from 1 to N:
+        minCoins[i] = Infinity
+    
+    For i from 1 to N:
+        For each coin in denominations:
+            If coin <= i:
+                subResult = minCoins[i - coin]
+                If subResult != Infinity and subResult + 1 < minCoins[i]:
+                    minCoins[i] = subResult + 1
+    
+    If minCoins[N] == Infinity:
+        Return "Change cannot be made"
+    Else:
+        Return minCoins[N]
