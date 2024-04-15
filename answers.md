@@ -22,3 +22,6 @@ Place all written answers from `assignment-03.md` here for easier grading.
 
 To prove this, assume there is a better solution for $N$ that does not include the optimal solution for $N - D_i$. This would mean that there is a way to make change for $N$ using fewer coins than the optimal solution for $N - D_i$ plus one coin of $D_i$. But this contradicts definition of the optimal solution for $N-D_i$, which is the minimum number of coins needed. Therefore, the assumption is incorrect, and the optimal solution for $N$ must include the optimal solution for 
 $N-D_i$ plus the coin $D_i$.
+
+
+2c). 
