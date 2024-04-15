@@ -45,4 +45,4 @@ Let minCoins[0..N] be a new array
     Else:
         Return minCoins[N]
 
-$W(n) = O(Nk)%, %S(n) = O(Nk)$
+$W(n) = O(Nk)$, $S(n) = O(Nk)$
