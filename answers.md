@@ -1,7 +1,7 @@
 # CMPS 2200 Assignment 3
 ## Answers
 
-**Name:**________Charles Zhang_________________
+**Name:**_________________________Charles Zhang
 
 
 Place all written answers from `assignment-03.md` here for easier grading.
