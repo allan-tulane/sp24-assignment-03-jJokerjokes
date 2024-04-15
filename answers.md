@@ -24,7 +24,7 @@ To prove this, assume there is a better solution for $N$ that does not include t
 $N-D_i$ plus the coin $D_i$.
 
 
-2c). Buttom-up:
+2c). Bottom-up:
 
 Let minCoins[0..N] be a new array
     Initialize minCoins[0] to 0 
@@ -44,3 +44,5 @@ Let minCoins[0..N] be a new array
         Return "Change cannot be made"
     Else:
         Return minCoins[N]
+
+$W(n) = O(Nk)%, %S(n) = O(Nk)$
